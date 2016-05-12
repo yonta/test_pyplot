@@ -65,4 +65,15 @@ plt.subplots_adjust(left=None, bottom=None, right=None,
 plt.show()
 
 # 保存
-plt.savefig("image.png")
+plt.savefig('image.png')
+
+# import os
+# print(__file__)
+# print(os.path.dirname(__file__))
+# d = os.path.abspath(os.path.dirname(__file__))
+# print(d)
+# だめだめだめだめ
+# plt.savefig(d + "/imgae1-2.png")
+# plt.savefig('c:/msys64/home/image.png')
+# plt.savefig(r'c:/msys64/home/kei/image.png')
+# plt.savefig(r'c:\msys64\home\kei\image.png')
