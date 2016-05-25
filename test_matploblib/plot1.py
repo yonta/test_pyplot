@@ -34,7 +34,7 @@ ax3.plot(rancum, 'k--')
 
 # ran = randn(100)
 # ヒストグラム（縦軸が頻度、横軸が範囲の統計のための棒グラフ）を表示
-# bins:横軸である範囲の数、alpha:?
+# bins:横軸である範囲の数、alpha:透過度
 ax1.hist(ran, bins=20, color='k', alpha=0.3)
 
 # 0オリジンで30個の配列を返す。この例なら[0, ... , 29]
